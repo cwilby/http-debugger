@@ -1,0 +1,24 @@
+{
+  "name": "magic-mirror-gate",
+  "version": "1.0.0",
+  "description": "A HTTP mirror to log incoming requests and mirror the request back to the caller.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwilby/magic-mirror-gate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwilby/magic-mirror-gate/issues"
+  },
+  "homepage": "https://github.com/cwilby/magic-mirror-gate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.1"
+  }
+}
